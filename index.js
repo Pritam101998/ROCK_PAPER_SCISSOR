@@ -25,12 +25,12 @@ const imageElement2 = document.createElement("img");
 const imageElement11 = document.createElement("img");
 const imageElement12 = document.createElement("img");
 const imageElement21 = document.createElement("img");
-imageElement.src = "icons8-fist-67 1.png";
-imageElement1.src = "icons8-hand-64 1.png";
-imageElement2.src = "17911 1.png";
-imageElement11.src = "icons8-fist-67 1.png";
-imageElement12.src = "icons8-hand-64 1.png";
-imageElement21.src = "17911 1.png";
+imageElement.src = "./material/icons8-fist-67 1.png";
+imageElement1.src = "material/icons8-hand-64 1.png";
+imageElement2.src = "material/17911 1.png";
+imageElement11.src = "material/icons8-fist-67 1.png";
+imageElement12.src = "material/icons8-hand-64 1.png";
+imageElement21.src = "material/17911 1.png";
 const arr_com = [
   imageElement11,
   imageElement12,
@@ -142,7 +142,7 @@ rock.addEventListener("click", () => {
     main1s.style.display = "none";
   });
 });
-// ==========================================SAISSORS=============================================================>>>>>>>>>>>
+// ==========================================SCISSORS=============================================================>>>>>>>>>>>
 
 scissors.addEventListener("click", () => {
   // d = false;
