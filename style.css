@@ -1,0 +1,203 @@
+* {
+  margin: 0px;
+  papping: 0px box;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(105, 213, 116);
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.score_board {
+  border: white 2px solid;
+  width: 60%;
+  height: 25%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+  padding-top: 1rem;
+  padding-right: 2rem;
+}
+.score {
+  border: white 2px solid;
+  border-radius: 15px;
+  height: 80%;
+  width: 20%;
+  background-color: #ffffff;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+}
+.rps {
+  display: flex;
+}
+.RPS {
+  /* position: absolute;
+  top: 35px;
+  left: 250px;
+  height: 20%;
+  width: 10%; */
+  font-size: 30px;
+  color: #ffffff;
+  height: 20%;
+  width: 20%;
+}
+.score_point {
+  font-size: 3rem;
+}
+.selection_point {
+  display: flex;
+  flex-flow: row wrap;
+  height: 50%;
+  width: 40%;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.ROCK,
+.SCISSORS,
+.PAPER {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px rgb(36, 163, 192) solid;
+  border-radius: 150%;
+  height: 50%;
+  width: 30%;
+  background-color: #ffffff;
+  text-align: center;
+}
+.img > img {
+  height: 4rem;
+}
+
+.cancel {
+  position: absolute;
+  top: 110px;
+  left: 1060px;
+  text-align: center;
+  border: white 5px solid;
+  height: 10%;
+  width: 5%;
+  border-radius: 100%;
+  color: #ffffff;
+  background-color: red;
+  font-size: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rule {
+  position: absolute;
+  left: 60rem;
+  top: 29rem;
+  height: 8%;
+  width: 7%;
+  border-radius: 5px;
+  border: none;
+}
+.next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 66rem;
+  top: 29rem;
+  height: 8%;
+  width: 7%;
+  border-radius: 5px;
+  border: none;
+}
+
+.x {
+  color: red;
+}
+.rule_box {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  width: 30%;
+  border: white 5px solid;
+  color: #ffffff;
+  background-color: #004429;
+  border-radius: 5px;
+  top: 120px;
+  left: 47rem;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  color: #ffffff;
+  padding: 1rem;
+  margin: 10px;
+  list-style-type: square;
+}
+li::marker {
+  color: #ffd600;
+}
+.winner_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  height: 40%;
+  width: 70%;
+  /* border: red solid 3px; */
+  column-gap: 2rem;
+}
+.main1 {
+  display: none;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.image1,
+.image2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px rgb(36, 163, 192) solid;
+  border-radius: 150%;
+
+  width: 100%;
+  background-color: #ffffff;
+  text-align: center;
+}
+.image1 > img {
+  height: 70%;
+  width: 70%;
+}
+.winpic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#trophy {
+  position: absolute;
+  top: 70px;
+}
+.middle {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.replay {
+  display: flex;
+  justify-content: center;
+}
