@@ -168,14 +168,14 @@ scissors.addEventListener("click", () => {
     Replay.style.display = "none";
     AGAINST_PC.style.display = "flex";
   } else if (imageElement11 === randomStyle) {
-    // WIN.innerHTML = "YOU LOST";
+    WIN.innerHTML = "YOU LOST";
     // com_point = com_point + 1;
     var o = localStorage.getItem("y");
     Number(o);
     o = Number(o) + 1;
     localStorage.setItem("y", o);
     Point1.innerHTML = localStorage.getItem("y");
-    Point1.innerHTML = com_point;
+    // Point1.innerHTML = com_point;
     next1.style.display = "none";
     Play_again.style.display = "flex";
     Replay.style.display = "none";
